@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "honeycomb-protocol"
+version = "1.0.0"
+description = "Honeycomb Agent Coordination Protocol (HACP): Stigmergic coordination, typed graph envelopes, and SQLite WAL pre-inference atomic idempotency for autonomous AI swarms."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [
+    { name = "hsnlabs Distributed Systems & Protocol Engineering", email = "engineering@hsnlabs.ai" }
+]
+keywords = [
+    "agents",
+    "swarm",
+    "stigmergy",
+    "protocol",
+    "idempotency",
+    "sqlite-wal",
+    "multi-agent-systems",
+    "hsnlabs",
+    "honeycomb"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Distributed Computing",
+]
+dependencies = [
+    "pydantic>=2.7.0",
+    "aiosqlite>=0.20.0",
+]
+
+[project.urls]
+Homepage = "https://hsnlabs.ai/en/products/honeycomb-protocol/"
+Repository = "https://github.com/hsnlabs-ai/honeycomb-protocol"
+Specification = "https://github.com/hsnlabs-ai/honeycomb-protocol/blob/main/docs/SPECIFICATION.md"
+Whitepaper = "https://github.com/hsnlabs-ai/honeycomb-protocol/blob/main/docs/WHITEPAPER.md"

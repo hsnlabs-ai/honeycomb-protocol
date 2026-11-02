@@ -1,0 +1,72 @@
+"""Standalone open-source export package for the Honeycomb Agent Coordination Protocol (HACP v1.0.0)."""
+
+from honeycomb_protocol.idempotency import (
+    BLOCKING_IDEMPOTENCY_STATUSES,
+    IDEMPOTENCY_TABLE_DDL,
+    HoneycombIdempotencyGuard,
+    HoneycombIdempotencyStore,
+    IdempotencyClaimResult,
+    IdempotencyController,
+    IdempotencyRecord,
+    IdempotencyStatus,
+)
+from honeycomb_protocol.protocol import (
+    DEFAULT_PROTOCOL_VERSION,
+    HONEYCOMB_PROTOCOL_VERSION,
+    HoneycombEdge,
+    HoneycombEnvelope,
+    HoneycombEnvelopeHeader,
+    HoneycombPayload,
+    compute_target_scope_hash,
+    generate_resume_token,
+    parse_resume_token,
+    utc_now_iso,
+)
+from honeycomb_protocol.reflex_bus import (
+    HONEYCOMB_DOUBLE_ACK,
+    HONEYCOMB_HANDSHAKE_ACK,
+    HONEYCOMB_SESSION_INIT,
+    HONEYCOMB_SESSION_TEARDOWN,
+    LIFECYCLE_TOPICS,
+    DoubleAckEvent,
+    HoneycombHandshake,
+    HoneycombHandshakeRecord,
+    HoneycombLifecycleEvent,
+    ReflexEvent,
+    SwarmReflexBus,
+)
+
+__version__ = HONEYCOMB_PROTOCOL_VERSION
+
+__all__ = [
+    "BLOCKING_IDEMPOTENCY_STATUSES",
+    "DEFAULT_PROTOCOL_VERSION",
+    "HONEYCOMB_DOUBLE_ACK",
+    "HONEYCOMB_HANDSHAKE_ACK",
+    "HONEYCOMB_PROTOCOL_VERSION",
+    "HONEYCOMB_SESSION_INIT",
+    "HONEYCOMB_SESSION_TEARDOWN",
+    "IDEMPOTENCY_TABLE_DDL",
+    "LIFECYCLE_TOPICS",
+    "DoubleAckEvent",
+    "HoneycombEdge",
+    "HoneycombEnvelope",
+    "HoneycombEnvelopeHeader",
+    "HoneycombHandshake",
+    "HoneycombHandshakeRecord",
+    "HoneycombIdempotencyGuard",
+    "HoneycombIdempotencyStore",
+    "HoneycombLifecycleEvent",
+    "HoneycombPayload",
+    "IdempotencyClaimResult",
+    "IdempotencyController",
+    "IdempotencyRecord",
+    "IdempotencyStatus",
+    "ReflexEvent",
+    "SwarmReflexBus",
+    "__version__",
+    "compute_target_scope_hash",
+    "generate_resume_token",
+    "parse_resume_token",
+    "utc_now_iso",
+]
