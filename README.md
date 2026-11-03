@@ -1,3 +1,25 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Honeycomb Protocol banner" width="100%" style="border-radius: 12px;">
+</p>
+
+<p align="center">
+  <strong>Open Stigmergic Coordination &amp; Pre-Inference SQLite WAL Atomic Idempotency (HACP-RFC-0001).</strong>
+</p>
+
+<p align="center">
+  <a href="https://hsnlabs.ai/en/products/honeycomb-protocol/"><img src="https://img.shields.io/badge/website-hsnlabs.ai-52B4FD.svg" alt="website"></a>
+  <a href="https://hsnlabs.ai"><img src="https://img.shields.io/badge/maintained%20by-hsnlabs-07090e.svg" alt="hsnlabs"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-mit-blue.svg" alt="license"></a>
+  <img src="https://img.shields.io/badge/python-3.11+-3776AB.svg" alt="python">
+  <img src="https://img.shields.io/badge/spec-HACP--RFC--0001-52B4FD.svg" alt="spec">
+</p>
+
+<p align="center">
+  <img src="assets/studio_window.png" alt="Honeycomb Protocol Stigmergic Coordination Chamber" width="100%" style="border-radius: 12px;">
+</p>
+
+---
+
 # Honeycomb Protocol (`HACP v1.0.0`)
 
 **Open Stigmergic Coordination Protocol for Long-Horizon Autonomous Agent Swarms**  
@@ -11,7 +33,7 @@ Maintained by **hsnlabs** (`https://hsnlabs.ai`) · Released under the **MIT Lic
 
 ---
 
-## Why Honeycomb?
+## <img src="assets/logo-square.png" alt="logo" width="24" height="24" align="absmiddle" style="border-radius: 5px; vertical-align: middle;" /> Why Honeycomb?
 
 Honeycomb operates at the **semantic decentralized coordination layer**—complementing vertical tool-binding protocols like MCP and local workflow graphs like LangGraph—to eliminate the four core failure modes of multi-agent swarms:
 
